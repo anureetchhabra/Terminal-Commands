@@ -92,7 +92,7 @@ HOW TO SUBMIT :
 - Icelake nodes:
     `qsub -P col774 -q test -lselect=1:ncpus=4:ngpus=1 -lwalltime=168:00:00 -I`
 - Amdepyc nodes:
-    `qsub -P <department project> -q scai_lowq -lselect=1:ncpus=4:ngpus=1 -lwalltime=24:00:00 -I`
+    `qsub -P <proj> -q scai_q -lselect=1:ncpus=32:ngpus=8:centos=amdepyc -lwalltime=24:00:00 -I`
 
 
 
