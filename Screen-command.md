@@ -1,5 +1,5 @@
-# Create a Screen Session:
-To create  a new screen session the`screen` command is used.
 
-# List all Screen Session:
-`screen -ls`
+| Action | Command | 
+|----------|----------|
+| Create a Screen Session | screen | 
+| List all Screen Session | screen -ls | 
